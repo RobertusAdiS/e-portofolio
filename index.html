@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Portofolio PPG Prajabatan | Calon Guru Profesional</title>
+    <meta name="description" content="E-Portofolio akademik profesional Mahasiswa PPG Prajabatan. Memuat artefak pembelajaran, jurnal refleksi, dan evaluasi praktik pengalaman lapangan.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Scroll Progress -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scrollProgress"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Robert<span>Portofolio</span></a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#hero" class="nav-link active">Beranda</a></li>
+                <li class="nav-item"><a href="#profil" class="nav-link">Profil</a></li>
+                <li class="nav-item"><a href="#filosofi" class="nav-link">Filosofi</a></li>
+                <li class="nav-item"><a href="#artefak" class="nav-link">Artefak</a></li>
+                <li class="nav-item"><a href="#evaluasi" class="nav-link">Evaluasi</a></li>
+                <li class="nav-item"><a href="#kontak" class="nav-link">Kontak</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero-section">
+        <div class="hero-content">
+            <span class="hero-subtitle-top">PPG Prajabatan Gelombang I</span>
+            <h1 class="hero-title">Ad Maiorem Dei Gloriam</h1>
+            <p class="hero-subtitle">Senantiasa berupaya memberikan yang terbaik dan melampaui batas kemampuan diri demi kemuliaan Tuhan yang lebih besar.</p>
+            <div class="hero-buttons">
+                <a href="#artefak" class="btn btn-primary"><i class="fas fa-layer-group"></i> Eksplorasi Artefak</a>
+                <a href="#profil" class="btn btn-secondary"><i class="fas fa-user-graduate"></i> Kenali Saya</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- Profil Section -->
+    <section id="profil" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Profil Mahasiswa</h2>
+            <div class="profil-grid">
+                <div class="profil-image">
+                    <img src="asset/Profil Diri/R. Adi S (20241118064953).png" alt="Foto Profil Mahasiswa PPG">
+                </div>
+                <div class="profil-content">
+                    <h4 class="profil-title">MAHASISWA PPG PRAJABATAN TAHUN 2026</h4>
+                    <h3>Robertus Adi Setyawan</h3>
+                    <p class="profil-desc">Bagi saya, menjadi seorang guru adalah panggilan untuk menjadi pembelajar seumur hidup. Motivasi utama saya adalah keinginan untuk terus mengembangkan diri tanpa henti, karena saya percaya bahwa kualitas seorang pendidik ditentukan oleh kerelaannya untuk terus belajar. Saya ingin mendedikasikan ilmu dan proses bertumbuh saya untuk membantu orang lain mencapai potensi terbaik mereka. Menjadi guru bukan sekadar profesi, melainkan jalan saya untuk menjadi pribadi yang berguna bagi sesama dan memberikan dampak positif yang nyata bagi masyarakat. </p>
+                    <blockquote style="font-style: italic; color: var(--soft-gold); margin-bottom: 2rem; border-left: 3px solid var(--soft-gold); padding-left: 1rem; font-family: var(--font-heading);">"Ad Maiorem Dei Gloriam: Terus belajar untuk bertumbuh, dan terus bertumbuh untuk menjadi pribadi yang bermanfaat bagi sesama."</blockquote>
+                    
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-id-card"></i></div>
+                            <div class="info-text">
+                                <h4>NIM / No. Peserta</h4>
+                                <p>25205260187</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-book-open"></i></div>
+                            <div class="info-text">
+                                <h4>Bidang Studi</h4>
+                                <p>Informatika</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-school"></i></div>
+                            <div class="info-text">
+                                <h4>Sekolah Mitra PPL</h4>
+                                <p>SMA N 3 Yogyakarta</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="info-text">
+                                <h4>Asal Daerah</h4>
+                                <p>Kota Yogyakarta, DIY</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filosofi & Motivasi Section -->
+    <section id="filosofi" class="section-padding bg-gray">
+        <div class="container">
+            <h2 class="section-title">Filosofi & Identitas Pendidik</h2>
+            <div class="filosofi-grid">
+                <div class="card">
+                    <i class="fas fa-cross card-icon"></i>
+                    <h3>Filosofi Pendidikan</h3>
+                    <ul style="padding-left: 1.2rem; font-size: 0.9rem; display: flex; flex-direction: column; gap: 0.4rem; text-align: left; list-style-type: disc;">
+                        <li>Memberikan yang terbaik demi kemuliaan Tuhan yang lebih besar.</li>
+                        <li>Perhatian terhadap pribadi secara utuh dan menghargai keunikan individu.</li>
+                        <li>Membentuk pribadi yang siap melayani dan berbagi bagi sesama.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <i class="fas fa-bullseye card-icon"></i>
+                    <h3>Visi</h3>
+                    <p>Mewujudkan generasi muda yang tidak hanya cerdas kognitif, tetapi memiliki kepekaan sosial tajam sebagai manusia bagi sesama.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-landmark card-icon"></i>
+                    <h3>Nilai Budaya Daerah</h3>
+                    <ul style="padding-left: 1.2rem; font-size: 0.9rem; display: flex; flex-direction: column; gap: 0.4rem; text-align: left; list-style-type: disc;">
+                        <li>Menjaga keselarasan, kedamaian, dan kelestarian.</li>
+                        <li>Mengedepankan sikap rendah hati dan tata krama (unggah-ungguh).</li>
+                        <li>Semangat persatuan dan gotong royong.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Artefak Pembelajaran Section -->
+    <section id="artefak" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Portofolio Artefak Pembelajaran</h2>
+            <p style="text-align: center; color: var(--text-muted); margin-bottom: 3rem; max-width: 700px; margin-left: auto; margin-right: auto; font-size: 1.1rem;">Kompilasi dokumen esensial yang mendemonstrasikan kompetensi pedagogik dalam merancang, melaksanakan, dan mengevaluasi pembelajaran berbasis paradigma baru.</p>
+            
+            <div class="portfolio-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-target="tab-rpp"><i class="fas fa-file-alt"></i> Rencana Pembelajaran Mendalam</button>
+                    <button class="tab-btn" data-target="tab-modul"><i class="fas fa-book"></i> Modul Ajar</button>
+                    <button class="tab-btn" data-target="tab-media"><i class="fas fa-photo-video"></i> Media Pembelajaran</button>
+                </div>
+                
+                <div class="tab-content-container">
+                    <!-- Tab 1: RPP -->
+                    <div class="tab-pane active" id="tab-rpp">
+                        <!-- RPP 1 -->
+                        <div class="portfolio-card" style="margin-bottom: 4rem; padding-bottom: 4rem; border-bottom: 1px solid #E2E8F0;">
+                            <div class="portfolio-document">
+                                <div class="pdf-preview">
+                                    <div class="pdf-header" style="font-size: 0.7rem;">
+                                        <i class="fas fa-file-pdf"></i> XI - PERENCANAAN PEMBELAJARAN MENDALAM IOT.pdf
+                                    </div>
+                                    <div class="pdf-body">
+                                        <div class="pdf-page">
+                                            <div class="pdf-title" style="font-size: 0.7rem;">RPP IOT KELAS XI</div>
+                                            <div class="pdf-lines"></div>
+                                            <div class="pdf-lines"></div>
+                                            <div class="pdf-lines"></div>
+                                            <div class="pdf-lines"></div>
+                                            <i class="fas fa-search-plus pdf-zoom"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="Asset/Dokumen%20Akademik/Kelas%2011/XI%20-%20PERENCANAAN%20PEMBELAJARAN%20MENDALAM%20IOT.pdf" class="btn btn-primary" style="width: 100%;" target="_blank"><i class="fas fa-download"></i> Buka / Unduh Dokumen</a>
+                            </div>
+                            <div class="portfolio-details">
+                                <h3>Modul Ajar / RPP: Internet of Things (IoT)</h3>
+                                <p class="portfolio-desc">Dokumen perencanaan pembelajaran mendalam untuk kelas XI dengan fokus pada konsep dan implementasi Internet of Things (IoT).</p>
+                                
+                                <div class="detail-grid">
+                                    <div class="detail-item">
+                                        <h4><i class="fas fa-bullseye"></i> Tujuan Pembelajaran</h4>
+                                        <p style="margin-bottom: 0.5rem; font-size: 0.9rem;">Disusun secara berjenjang (scaffolding) dari tingkat dasar hingga lanjut:</p>
+                                        <ul style="padding-left: 1.2rem; font-size: 0.85rem; margin-bottom: 0; display: flex; flex-direction: column; gap: 0.3rem;">
+                                            <li><strong>Tingkat Dasar:</strong> Memahami dasar-dasar komponen Arduino, sensor, aktuator, serta menginstal IDE Arduino.</li>
+                                            <li><strong>Tingkat Menengah:</strong> Menerapkan algoritma Input-Proses-Output, struktur kontrol/modular, dan menghubungkan komunikasi data.</li>
+                                            <li><strong>Tingkat Lanjut:</strong> Mengembangkan projek IoT, menganalisis & debugging sistem, serta mengomunikasikan hasil karya.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="detail-item">
+                                        <h4><i class="fas fa-brain"></i> Relevansi Pedagogik</h4>
+                                        <p style="margin-bottom: 0.5rem; font-size: 0.9rem;">Menunjukkan relevansi pedagogik yang kuat dengan kurikulum modern:</p>
+                                        <ul style="padding-left: 1.2rem; font-size: 0.85rem; margin-bottom: 0; display: flex; flex-direction: column; gap: 0.3rem;">
+                                            <li><strong>Model PjBL:</strong> Memuat 6 sintaks terstruktur dari pertanyaan pemantik hingga evaluasi/komunikasi hasil.</li>
+                                            <li><strong>Bermakna & Kontekstual:</strong> Diawali masalah dunia nyata ("Bagaimana sistem penyiraman otomatis bekerja?").</li>
+                                            <li><strong>Lintas Disiplin:</strong> Mengintegrasikan Informatika dengan Fisika dan Matematika.</li>
+                                            <li><strong>Pengembangan Karakter:</strong> Mendukung Profil Pelajar Pancasila (Kritis, Kreatif, Kolaborasi, Mandiri).</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="swot-grid">
+                                    <div class="swot-card strength">
+                                        <h4><i class="fas fa-plus-circle"></i> Kekuatan</h4>
+                                        <ul style="padding-left: 1.2rem; font-size: 0.85rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.3rem;">
+                                            <li><strong>Asesmen Komprehensif:</strong> Mencakup asesmen awal, proses (observasi kinerja), dan akhir (penilaian produk).</li>
+                                            <li><strong>Rubrik Terperinci:</strong> Kriteria penilaian proyek jelas (Inovasi, Coding, Fungsionalitas, & Kerja Sama).</li>
+                                            <li><strong>Teknologi Terintegrasi:</strong> Memanfaatkan Tinkercad, YouTube, Google Drive, dan Canva.</li>
+                                            <li><strong>Scaffolding:</strong> Guru merencanakan simulasi bertahap sebelum perakitan hardware fisik.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="swot-card weakness">
+                                        <h4><i class="fas fa-minus-circle"></i> Kelemahan</h4>
+                                        <ul style="padding-left: 1.2rem; font-size: 0.85rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.3rem;">
+                                            <li><strong>Minim Diferensiasi:</strong> Ketiadaan rencana remedial/langkah mitigasi bagi siswa yang belum memiliki dasar kesiapan awal.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="reflection-block">
+                                    <h4><i class="fas fa-lightbulb"></i> Analisis Reflektif & Tindak Lanjut</h4>
+                                    <p style="font-weight: 600; margin-bottom: 0.5rem; color: var(--primary-blue);">Analisis Reflektif</p>
+                                    <ul style="padding-left: 1.2rem; font-size: 0.85rem; margin-bottom: 1rem; display: flex; flex-direction: column; gap: 0.4rem;">
+                                        <li><strong>Kesesuaian Waktu & Beban Kognitif:</strong> Alokasi "1x Pertemuan" sangat kontradiktif dengan sintaks PjBL yang diterapkan — proses dari eksplorasi, perakitan, coding, hingga debugging membutuhkan waktu panjang.</li>
+                                        <li><strong>Efektivitas Scaffolding:</strong> Perlu merefleksikan apakah transisi dari simulasi Tinkercad ke perakitan hardware fisik benar-benar berjalan mulus bagi seluruh kelompok.</li>
+                                        <li><strong>Keterlibatan Siswa dalam Evaluasi:</strong> Pelibatan siswa di tahap penutup adalah praktik baik yang menumbuhkan kesadaran belajar (<em>assessment as learning</em>).</li>
+                                        <li><strong>Kejelasan Kriteria Penilaian:</strong> Rubrik holistik (Inovasi, Fungsionalitas, Kerapian, Kerja Sama) harus dipahami siswa sejak Sintak 2-3 PjBL agar mereka punya target yang jelas.</li>
+                                    </ul>
+                                    <p style="font-weight: 600; margin-bottom: 0.5rem; color: var(--edu-green);">Tindak Lanjut Pembelajaran</p>
+                                    <ul style="padding-left: 1.2rem; font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.4rem;">
+                                        <li><strong>Strategi Diferensiasi:</strong> Merancang pendampingan ekstra bagi yang terjebak di fase <em>debugging</em>, dan tantangan tambahan bagi siswa "Mahir".</li>
+                                        <li><strong>Implementasi Nyata:</strong> Mengimplementasikan karya siswa "Mahir" (sistem penyiraman/smart home) untuk digunakan di fasilitas sekolah nyata.</li>
+                                        <li><strong>Portofolio Digital:</strong> Mengarsipkan video Show Off dan laporan proyek di Google Drive sebagai referensi bagi adik kelas berikutnya.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- RPP 2 -->
+                        <div class="portfolio-card">
+                            <div class="portfolio-document">
+                                <div class="pdf-preview">
+                                    <div class="pdf-header" style="font-size: 0.7rem;">
+                                        <i class="fas fa-file-pdf"></i> X - PERENCANAAN PEMBELAJARAN MENDALAM IOT.pdf
+                                    </div>
+                                    <div class="pdf-body">
+                                        <div class="pdf-page">
+                                            <div class="pdf-title" style="color: var(--edu-green); font-size: 0.7rem;">RPP IOT KELAS X</div>
+                                            <div class="pdf-lines"></div>
+                                            <div class="pdf-lines"></div>
+                                            <div class="pdf-box"></div>
+                                            <div class="pdf-lines"></div>
+                                            <i class="fas fa-search-plus pdf-zoom"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="Asset/Dokumen%20Akademik/Kelas%2010/X%20-%20PERENCANAAN%20PEMBELAJARAN%20MENDALAM%20IOT.pdf" class="btn btn-primary" style="width: 100%;" target="_blank"><i class="fas fa-download"></i> Buka / Unduh Dokumen</a>
+                            </div>
+                            <div class="portfolio-details">
+                                <h3>Modul Ajar / RPP: IoT Dasar (Kelas X)</h3>
+                                <p class="portfolio-desc">Dokumen perencanaan pembelajaran mendalam untuk kelas X dengan fokus pada pengenalan dan fondasi dasar Internet of Things (IoT).</p>
+                                
+                                <div class="detail-grid">
+                                    <div class="detail-item">
+                                        <h4><i class="fas fa-bullseye"></i> Tujuan Pembelajaran</h4>
+                                        <p style="margin-bottom: 0.5rem; font-size: 0.9rem;">Disusun secara berjenjang (scaffolding) dalam alokasi 4 kali pertemuan:</p>
+                                        <ul style="padding-left: 1.2rem; font-size: 0.85rem; margin-bottom: 0; display: flex; flex-direction: column; gap: 0.3rem;">
+                                            <li><strong>Tingkat Dasar:</strong> Mengidentifikasi persoalan nyata yang dapat diselesaikan IoT, memahami komponen Arduino & sensor, serta menginstal Arduino IDE.</li>
+                                            <li><strong>Tingkat Menengah:</strong> Berkolaborasi dalam tim inklusif, merancang solusi Input-Process-Output, menerapkan algoritma/flowchart, dan menghubungkan sensor-aktuator.</li>
+                                            <li><strong>Tingkat Lanjut:</strong> Mengembangkan proyek IoT berbasis kebutuhan nyata, melakukan debugging & evaluasi, serta mengomunikasikan produk secara lisan & tertulis.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="detail-item">
+                                        <h4><i class="fas fa-brain"></i> Relevansi Pedagogik</h4>
+                                        <p style="margin-bottom: 0.5rem; font-size: 0.9rem;">Relevansi pedagogik yang kuat dengan kurikulum modern:</p>
+                                        <ul style="padding-left: 1.2rem; font-size: 0.85rem; margin-bottom: 0; display: flex; flex-direction: column; gap: 0.3rem;">
+                                            <li><strong>Model PjBL:</strong> Sintaks terstruktur dari eksplorasi ide hingga evaluasi dan komunikasi hasil.</li>
+                                            <li><strong>Konteks Nyata & Bermakna:</strong> Diawali pertanyaan pemantik "Bagaimana perangkat memantau lingkungan secara otomatis?" — mengaitkan teori dengan kehidupan sehari-hari.</li>
+                                            <li><strong>Profil Pelajar Pancasila:</strong> Mendukung dimensi Kolaborasi, Kemandirian, dan Penalaran Kritis.</li>
+                                            <li><strong>Integrasi Keilmuan:</strong> Pembelajaran lintas disiplin yang mengintegrasikan Informatika dengan Fisika dan Matematika.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="swot-grid">
+                                    <div class="swot-card strength">
+                                        <h4><i class="fas fa-plus-circle"></i> Kekuatan</h4>
+                                        <ul style="padding-left: 1.2rem; font-size: 0.85rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.3rem;">
+                                            <li><strong>Alokasi Waktu Proporsional:</strong> 4 pertemuan jauh lebih realistis dan ideal untuk menuntaskan seluruh tahapan PjBL.</li>
+                                            <li><strong>Fokus Inklusivitas:</strong> Secara eksplisit mengamanatkan kolaborasi tim yang inklusif, selaras dengan CP Fase E.</li>
+                                            <li><strong>Rubrik Holistik & Praktikal:</strong> Menilai Inovasi, Fungsionalitas, Efisiensi Biaya, Kerja Sama Tim, serta Presentasi & Dokumentasi.</li>
+                                            <li><strong>Asesmen Komprehensif:</strong> Mencakup penilaian awal, proses, dan akhir untuk memantau perkembangan peserta didik secara menyeluruh.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="swot-card weakness">
+                                        <h4><i class="fas fa-minus-circle"></i> Kelemahan</h4>
+                                        <ul style="padding-left: 1.2rem; font-size: 0.85rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.3rem;">
+                                            <li><strong>Diferensiasi Kurang Eksplisit:</strong> Tidak ada penjabaran tindak lanjut yang spesifik di kegiatan inti bagi siswa kategori "Baru Memulai" yang belum siap secara kognitif.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="reflection-block">
+                                    <h4><i class="fas fa-lightbulb"></i> Analisis Reflektif & Tindak Lanjut</h4>
+                                    <p style="font-weight: 600; margin-bottom: 0.5rem; color: var(--primary-blue);">Analisis Reflektif</p>
+                                    <ul style="padding-left: 1.2rem; font-size: 0.85rem; margin-bottom: 1rem; display: flex; flex-direction: column; gap: 0.4rem;">
+                                        <li><strong>Kesesuaian Beban Kognitif:</strong> Pembagian 4 pertemuan memberikan ruang kognitif yang memadai agar siswa memproses materi kompleks (sensor & coding) sebelum terjun ke perakitan fisik.</li>
+                                        <li><strong>Scaffolding Terstruktur:</strong> Rencana bertahap — dari dasar IoT, pengenalan sensor, simulasi Tinkercad, hingga integrasi proyek utuh — merupakan strategi fasilitasi yang sangat tangguh.</li>
+                                        <li><strong>Aspek Ekonomis Proyek:</strong> Penilaian efisiensi biaya yang mendorong pemanfaatan barang bekas/daur ulang tidak hanya menekan biaya, tetapi juga menumbuhkan kesadaran ekologis peserta didik.</li>
+                                    </ul>
+                                    <p style="font-weight: 600; margin-bottom: 0.5rem; color: var(--edu-green);">Tindak Lanjut Pembelajaran</p>
+                                    <ul style="padding-left: 1.2rem; font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.4rem;">
+                                        <li><strong>Rincian Per Pertemuan:</strong> Susun LKPD spesifik per pertemuan (P1: Ideasi & Simulasi, P2: Coding Sensor, P3: Wiring & Debugging, P4: Evaluasi & Show Off).</li>
+                                        <li><strong>Monitoring Kesenjangan Tim:</strong> Siapkan sistem pemantauan harian (jurnal kerja kelompok) agar tidak ada anggota yang dominan sementara yang lain pasif.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab 2: Modul Ajar -->
+                    <div class="tab-pane" id="tab-modul">
+                        <!-- Modul 1 -->
+                        <div class="portfolio-card" style="margin-bottom: 4rem; padding-bottom: 4rem; border-bottom: 1px solid #E2E8F0;">
+                            <div class="portfolio-document">
+                                <div class="pdf-preview">
+                                    <div class="pdf-header" style="font-size: 0.7rem;">
+                                        <i class="fas fa-file-pdf"></i> Modul Ajar Kelas 11 Algoritma dan Pemrograman IOT.pdf
+                                    </div>
+                                    <div class="pdf-body">
+                                        <div class="pdf-page">
+                                            <div class="pdf-title" style="color: var(--primary-blue); font-size: 0.65rem;">MODUL AJAR ALGORITMA & PEMROGRAMAN IOT</div>
+                                            <div class="pdf-lines"></div>
+                                            <div class="pdf-lines"></div>
+                                            <div class="pdf-box"></div>
+                                            <div class="pdf-lines"></div>
+                                            <i class="fas fa-search-plus pdf-zoom"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="Asset/Dokumen%20Akademik/Kelas%2011/Modul%20Ajar%20Kelas%2011%20Algoritma%20dan%20Pemrograman.pdf" class="btn btn-primary" style="width: 100%;" target="_blank"><i class="fas fa-download"></i> Buka / Unduh Modul Ajar</a>
+                            </div>
+                            <div class="portfolio-details">
+                                <h3>Modul Ajar: Algoritma & Pemrograman (Kelas XI)</h3>
+                                <p class="portfolio-desc">Modul ajar komprehensif Fase E yang dilengkapi dengan pemetaan kebutuhan belajar, bahan bacaan pemrograman dasar, dan rubrik asesmen proyek formatif-sumatif.</p>
+                                
+                                <div class="detail-grid">
+                                    <div class="detail-item">
+                                        <h4><i class="fas fa-bullseye"></i> Tujuan Esensial</h4>
+                                        <p style="font-size: 0.9rem; margin-bottom: 0.5rem;">Tujuan esensial dari modul ini adalah membekali peserta didik dengan keterampilan pemrograman dan elektronika melalui pembuatan proyek Internet of Things (IoT). Secara lebih spesifik, modul ini bertujuan agar siswa:</p>
+                                        <ul style="padding-left: 1.2rem; font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.3rem; list-style-type: disc;">
+                                            <li>Mampu memahami dan menerapkan konsep Input-Proses-Output menggunakan mikrokontroler (Arduino).</li>
+                                            <li>Dapat mengembangkan program secara modular (memecah kode menjadi fungsi-fungsi kecil yang independen) dan melakukan debugging.</li>
+                                            <li>Mampu menciptakan sistem otomatisasi atau proyek IoT yang inovatif untuk memecahkan masalah di lingkungan sekitar dengan efisiensi biaya.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="detail-item">
+                                        <h4><i class="fas fa-brain"></i> Relevansi Pedagogik</h4>
+                                        <p style="font-size: 0.9rem; margin-bottom: 0.5rem;">Modul ini sangat relevan dengan kebutuhan pendidikan modern abad ke-21 dan kurikulum merdeka, yang terlihat dari:</p>
+                                        <ul style="padding-left: 1.2rem; font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.4rem; list-style-type: disc;">
+                                            <li><strong>Pendekatan PjBL (Project Based Learning):</strong> Menggunakan model pembelajaran berbasis proyek yang berpusat pada siswa, di mana mereka dituntut dari tahap ideasi, simulasi, hingga pameran (Show Off).</li>
+                                            <li><strong>Pembentukan Karakter:</strong> Relevan dengan Profil Pelajar Pancasila, khususnya dalam melatih Penalaran Kritis, Kreativitas, Kolaborasi, dan Kemandirian.</li>
+                                            <li><strong>Pembelajaran Bermakna (Meaningful Learning):</strong> Mengaitkan teknologi (seperti smart farming/home) dengan kehidupan nyata sebagai jembatan antara dunia digital dan fisik.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="swot-grid">
+                                    <div class="swot-card strength">
+                                        <h4><i class="fas fa-plus-circle"></i> Kekuatan</h4>
+                                        <ul style="padding-left: 1.2rem; font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.5rem; list-style-type: disc; margin-top: 0.5rem;">
+                                            <li><strong>Alur Belajar Terstruktur & Aman:</strong> Transisi dari dasar ke simulasi Tinkercad sebelum perakitan fisik untuk mencegah kerusakan hardware.</li>
+                                            <li><strong>Efisiensi & Ekologi:</strong> Rubrik penilaian unik (bobot 20%) yang mendorong pemanfaatan bahan daur ulang dan efisiensi biaya nyata.</li>
+                                            <li><strong>Asesmen Komprehensif:</strong> Penilaian holistik mencakup inovasi, wiring, coding, biaya, dokumentasi, hingga kolaborasi tim.</li>
+                                            <li><strong>Praktik Clean Code:</strong> Pembiasaan pemrograman modular agar kode lebih bersih, terorganisir, dan mudah dilacak kesalahannya.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="swot-card weakness">
+                                        <h4><i class="fas fa-minus-circle"></i> Kelemahan</h4>
+                                        <ul style="padding-left: 1.2rem; font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.5rem; list-style-type: disc; margin-top: 0.5rem;">
+                                            <li><strong>Ketergantungan Fasilitas:</strong> Sangat bergantung pada laboratorium komputer, internet stabil, dan ketersediaan hardware mikrokontroler/sensor yang memadai.</li>
+                                            <li><strong>Kedalaman Algoritma:</strong> Fokus lebih didominasi oleh perakitan hardware (IoT), sehingga eksplorasi algoritma murni atau struktur data lanjutan menjadi kurang mendalam.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="reflection-block">
+                                    <h4><i class="fas fa-lightbulb"></i> Analisis Reflektif & Tindak Lanjut</h4>
+                                    
+                                    <p style="font-weight: 600; margin-bottom: 0.5rem; color: var(--primary-blue); font-size: 0.95rem;">Analisis Reflektif</p>
+                                    <ul style="padding-left: 1.2rem; font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; list-style-type: disc;">
+                                        <li><strong>Penerapan PjBL yang Solid:</strong> Alur belajar terstruktur dari tahap ideasi, simulasi Tinkercad, perakitan fisik, hingga demonstrasi produk (Show Off).</li>
+                                        <li><strong>Koneksi Dunia Nyata (Meaningful Learning):</strong> Menghubungkan konsep IoT (Input-Process-Output) secara langsung dengan solusi praktis untuk masalah lingkungan.</li>
+                                        <li><strong>Kesadaran Ekonomi & Ekologi:</strong> Rubrik "Efisiensi Biaya" (bobot 20%) mendorong kreativitas ramah lingkungan dengan memanfaatkan barang bekas/daur ulang.</li>
+                                        <li><strong>Pembiasaan Coding Profesional:</strong> Penggunaan Modular Programming dan teknik Debugging melatih penulisan kode yang bersih dan logika sistematis.</li>
+                                        <li><strong>Kesenjangan Fokus:</strong> Dominasi aspek hardware membuat eksplorasi algoritma komputasi murni menjadi sedikit terpinggirkan dibandingkan aspek elektronika.</li>
+                                    </ul>
+
+                                    <p style="font-weight: 600; margin-bottom: 0.5rem; color: var(--edu-green); font-size: 0.95rem;">Tindak Lanjut</p>
+                                    <ul style="padding-left: 1.2rem; font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.5rem; list-style-type: disc;">
+                                        <li><strong>Eskalasi Cloud IoT:</strong> Upgrade proyek menggunakan ESP32/NodeMCU agar data sensor dapat dipantau melalui Smartphone atau platform Cloud (Blynk/ThingSpeak).</li>
+                                        <li><strong>Integrasi STEAM Lintas Mapel:</strong> Menghubungkan proyek dengan Biologi (Smart Farming), Fisika (Gelombang/Resistansi), dan Ekonomi (Cost-Benefit Analysis).</li>
+                                        <li><strong>Pameran Inovasi Sekolah:</strong> Mengembangkan sesi Show Off menjadi pameran skala besar untuk melatih kemampuan Public Speaking dan kolaborasi tim.</li>
+                                        <li><strong>Pengayaan Logika Algoritma:</strong> Memberikan tantangan debugging mandiri atau implementasi algoritma pengkondisian bersarang yang lebih kompleks bagi siswa mahir.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Modul 2 -->
+                        <div class="portfolio-card">
+                            <div class="portfolio-document">
+                                <div class="pdf-preview">
+                                    <div class="pdf-header" style="font-size: 0.7rem;">
+                                        <i class="fas fa-file-pdf"></i> Modul Ajar Kelas 10 Praktik Lintas Bidang.pdf
+                                    </div>
+                                    <div class="pdf-body">
+                                        <div class="pdf-page">
+                                            <div class="pdf-title" style="color: var(--soft-gold); font-size: 0.65rem;">MODUL PRAKTIK LINTAS BIDANG</div>
+                                            <div class="pdf-lines"></div>
+                                            <div class="pdf-box" style="border-radius: 50%;"></div>
+                                            <div class="pdf-lines"></div>
+                                            <div class="pdf-lines"></div>
+                                            <i class="fas fa-search-plus pdf-zoom"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="Asset/Dokumen%20Akademik/Kelas%2010/Modul%20Ajar%20Kelas%2010%20Praktik%20Lintas%20Bidang.pdf" class="btn btn-primary" style="width: 100%;" target="_blank"><i class="fas fa-download"></i> Buka / Unduh Modul Ajar</a>
+                            </div>
+                            <div class="portfolio-details">
+                                <h3>Modul Ajar: Praktik Lintas Bidang (Kelas X)</h3>
+                                <p class="portfolio-desc">Modul ajar ko-kurikuler yang mengintegrasikan lintas bidang ilmu untuk membangun kemampuan berpikir kritis dan kolaboratif peserta didik Fase E melalui pembuatan proyek IoT.</p>
+                                
+                                <div class="detail-grid">
+                                    <div class="detail-item">
+                                        <h4><i class="fas fa-bullseye"></i> Tujuan Esensial</h4>
+                                        <p style="font-size: 0.9rem; margin-bottom: 0.5rem;">Mengantarkan peserta didik Fase E mengenal proyek teknologi terintegrasi melalui:</p>
+                                        <ul style="padding-left: 1.2rem; font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.3rem; list-style-type: disc;">
+                                            <li><strong>Pemecahan Masalah:</strong> Mengidentifikasi masalah lingkungan dan menciptakan solusi nyata berbasis IoT.</li>
+                                            <li><strong>Arsitektur Sistem:</strong> Memahami konsep Input-Process-Output (Sensor=indra, Arduino=otak, Aktuator=otot).</li>
+                                            <li><strong>Keterampilan Praktis:</strong> Penggunaan Tinkercad, perakitan rangkaian, coding dasar, dan presentasi Canva.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="detail-item">
+                                        <h4><i class="fas fa-brain"></i> Relevansi Pedagogik</h4>
+                                        <ul style="padding-left: 1.2rem; font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.4rem; list-style-type: disc;">
+                                            <li><strong>Model PjBL:</strong> Berpusat pada siswa dan berorientasi pada penciptaan artefak komputasional nyata.</li>
+                                            <li><strong>Analogi Tubuh Manusia:</strong> Ramah pemula dengan menganalogikan komponen IoT dengan panca indra, otak, dan otot.</li>
+                                            <li><strong>Profil Pelajar Pancasila:</strong> Melatih kemandirian, kolaborasi tim, kreativitas desain, dan penalaran kritis (debugging).</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="swot-grid">
+                                    <div class="swot-card strength">
+                                        <h4><i class="fas fa-plus-circle"></i> Kekuatan</h4>
+                                        <ul style="padding-left: 1.2rem; font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.5rem; list-style-type: disc; margin-top: 0.5rem;">
+                                            <li><strong>Keselamatan Virtual:</strong> Penggunaan Tinkercad mencegah risiko kerusakan hardware pada tahap awal eksplorasi.</li>
+                                            <li><strong>Efisiensi & Ekologi:</strong> Rubrik biaya (bobot 20%) mendorong pemanfaatan barang daur ulang dan kreativitas hemat biaya.</li>
+                                            <li><strong>Asesmen Holistik:</strong> Menilai fungsionalitas alat, presentasi, kekompakan tim, wiring, hingga dokumentasi.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="swot-card weakness">
+                                        <h4><i class="fas fa-minus-circle"></i> Kelemahan</h4>
+                                        <ul style="padding-left: 1.2rem; font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.5rem; list-style-type: disc; margin-top: 0.5rem;">
+                                            <li><strong>Waktu Terbatas:</strong> Target 8 JP terlampau padat untuk mencakup seluruh proses dari simulasi hingga presentasi.</li>
+                                            <li><strong>Hambatan Infrastruktur:</strong> Sangat bergantung pada kualitas internet sekolah untuk akses platform online (Tinkercad/Canva).</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="reflection-block">
+                                    <h4><i class="fas fa-lightbulb"></i> Analisis Reflektif & Tindak Lanjut</h4>
+                                    <p style="font-weight: 600; margin-bottom: 0.5rem; color: var(--primary-blue); font-size: 0.95rem;">Analisis Reflektif</p>
+                                    <ul style="padding-left: 1.2rem; font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; list-style-type: disc;">
+                                        <li><strong>Maker Culture:</strong> Berhasil menggeser paradigma siswa dari konsumen menjadi kreator teknologi melalui proyek IoT.</li>
+                                        <li><strong>Beban Belajar:</strong> Alokasi waktu yang dipangkas menjadi 8 JP menciptakan beban kognitif yang sangat tinggi bagi siswa.</li>
+                                        <li><strong>Kolaborasi Tersirat:</strong> Unsur "Lintas Bidang" belum secara eksplisit melibatkan guru mata pelajaran lain dalam prosesnya.</li>
+                                    </ul>
+
+                                    <p style="font-weight: 600; margin-bottom: 0.5rem; color: var(--edu-green); font-size: 0.95rem;">Tindak Lanjut</p>
+                                    <ul style="padding-left: 1.2rem; font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.5rem; list-style-type: disc;">
+                                        <li><strong>Kolaborasi Mapel Nyata:</strong> Mengintegrasikan penilaian dengan Guru Bahasa (Laporan) dan Guru Fisika/Biologi (Prinsip Kerja Sensor).</li>
+                                        <li><strong>Optimasi Pameran:</strong> Menggelar Show Off terbuka untuk audiens sekolah guna meningkatkan rasa percaya diri dan apresiasi karya.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab 3: Media Pembelajaran -->
+                    <div class="tab-pane" id="tab-media">
+                        <!-- Media 1: Canva -->
+                        <div class="portfolio-card" style="margin-bottom: 4rem; padding-bottom: 4rem; border-bottom: 1px solid #E2E8F0;">
+                            <div class="portfolio-document">
+                                <div class="media-preview" style="background: linear-gradient(135deg, #7C3AED, #4C1D95);">
+                                    <i class="fas fa-palette media-icon"></i>
+                                    <div class="media-overlay">Canva Presentation — Media Ajar Visual</div>
+                                </div>
+                                <div style="display: flex; flex-direction: column; gap: 0.4rem; margin-top: 0.75rem;">
+                                    <p style="font-size: 0.75rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;"><i class="fas fa-link"></i> Daftar Tautan Canva</p>
+                                    <a href="https://canva.link/nqihsitjs0bmrej" class="btn btn-secondary" style="width: 100%; font-size: 0.8rem; padding: 0.5rem;" target="_blank"><i class="fas fa-external-link-alt"></i> Slide 1 — Contoh IOT Sensor Kelembaban Tanah</a>
+                                    <a href="https://canva.link/gbsxbgwm5lz9787" class="btn btn-secondary" style="width: 100%; font-size: 0.8rem; padding: 0.5rem;" target="_blank"><i class="fas fa-external-link-alt"></i> Slide 2 — Contoh IOT Sensor Jarak Ultrasonic</a>
+                                    <a href="https://canva.link/32hgg6u4ncqovaz" class="btn btn-secondary" style="width: 100%; font-size: 0.8rem; padding: 0.5rem;" target="_blank"><i class="fas fa-external-link-alt"></i> Slide 3 — Pemahaman Dasar IOT</a>
+                                    <a href="https://canva.link/eoyfiozkhsonoxj" class="btn btn-secondary" style="width: 100%; font-size: 0.8rem; padding: 0.5rem;" target="_blank"><i class="fas fa-external-link-alt"></i> Slide 4 — Pemrograman dan Sensor</a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <h3>Canva Presentation — Media Ajar Visual Interaktif</h3>
+                                <p class="portfolio-desc">Pemanfaatan Canva sebagai platform pembuatan slide presentasi pembelajaran yang estetis, informatif, dan mudah dipahami siswa secara visual.</p>
+                                
+                                <div class="detail-grid">
+                                    <div class="detail-item">
+                                        <h4><i class="fas fa-bullseye"></i> Objektif Media</h4>
+                                        <p>Menyajikan materi Internet of Things secara visual melalui infografis, diagram alur, dan layout yang menarik untuk menurunkan beban kognitif siswa.</p>
+                                    </div>
+                                    <div class="detail-item">
+                                        <h4><i class="fas fa-brain"></i> Relevansi Pedagogik</h4>
+                                        <p>Berlandaskan teori <em>Multimedia Learning</em> (Mayer) — prinsip <em>Coherence</em> dan <em>Signaling</em> diterapkan melalui desain visual yang bersih dan terfokus.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="swot-grid">
+                                    <div class="swot-card strength">
+                                        <h4><i class="fas fa-plus-circle"></i> Kekuatan</h4>
+                                        <p>Desain slide profesional dan <em>eye-catching</em>. Mudah diperbarui dan dibagikan ke siswa secara langsung melalui tautan.</p>
+                                    </div>
+                                    <div class="swot-card weakness">
+                                        <h4><i class="fas fa-minus-circle"></i> Kelemahan</h4>
+                                        <p>Fitur lengkap membutuhkan akun premium. Bergantung pada koneksi internet saat presentasi langsung di kelas.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="reflection-block">
+                                    <h4><i class="fas fa-lightbulb"></i> Analisis Reflektif & Tindak Lanjut</h4>
+                                    <p>Canva sangat membantu menciptakan pengalaman visual yang premium. Ke depan, saya akan memanfaatkan fitur <em>Canva for Education</em> untuk kolaborasi pembuatan konten bersama siswa sebagai bagian dari asesmen proyek.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Media 2: Tinkercad -->
+                        <div class="portfolio-card">
+                            <div class="portfolio-document">
+                                <div class="media-preview" style="background: linear-gradient(135deg, #D97706, #92400E);">
+                                    <i class="fas fa-microchip media-icon"></i>
+                                    <div class="media-overlay">Tinkercad — Simulasi Rangkaian IoT</div>
+                                </div>
+                                <div style="display: flex; flex-direction: column; gap: 0.4rem; margin-top: 0.75rem;">
+                                    <p style="font-size: 0.75rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;"><i class="fas fa-link"></i> Daftar Tautan Tinkercad</p>
+                                    <a href="https://www.tinkercad.com/things/cifU4jFpTff-led/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fcircuits&sharecode=wOlrnGu_68pMKGg-DwgD8hH0jxOA5TITuhFsx_Z0BGQ" class="btn btn-secondary" style="width: 100%; font-size: 0.8rem; padding: 0.5rem;" target="_blank"><i class="fas fa-microchip"></i> Simulasi 1 — Rangkaian Lampu LED</a>
+                                    <a href="https://www.tinkercad.com/things/lmjwP5zWZ7k-stunning-leelo-bigery/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fcircuits&sharecode=S-MX-264SpolT9NOtpoj848JKtW91l5NY1nj3l2b3I0" class="btn btn-secondary" style="width: 100%; font-size: 0.8rem; padding: 0.5rem;" target="_blank"><i class="fas fa-microchip"></i> Simulasi 2 — Sensor Kelembaban Tanah</a>
+                                    <a href="https://www.tinkercad.com/things/ah8c1juqcol-dazzling-albar-kieran/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fcircuits&sharecode=vnLAKWeCoeJOO468-hG_RHYVK6PEXMbyA195EPJ29kk" class="btn btn-secondary" style="width: 100%; font-size: 0.8rem; padding: 0.5rem;" target="_blank"><i class="fas fa-microchip"></i> Simulasi 3 — Sensor Jarak Ultrasonic</a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <h3>Tinkercad — Simulasi Rangkaian & Pemrograman IoT</h3>
+                                <p class="portfolio-desc">Pemanfaatan Tinkercad sebagai platform simulasi rangkaian Arduino berbasis web untuk memperkenalkan IoT secara aman tanpa risiko kerusakan hardware fisik.</p>
+                                
+                                <div class="detail-grid">
+                                    <div class="detail-item">
+                                        <h4><i class="fas fa-bullseye"></i> Objektif Media</h4>
+                                        <p>Memberikan pengalaman perakitan dan pemrograman Arduino secara virtual sebelum siswa beralih ke perakitan hardware fisik sesungguhnya (<em>scaffolding digital</em>).</p>
+                                    </div>
+                                    <div class="detail-item">
+                                        <h4><i class="fas fa-brain"></i> Relevansi Pedagogik</h4>
+                                        <p>Berlandaskan kerangka kerja <strong>TPACK</strong> dan teori <em>Constructionism</em> (Papert) — siswa belajar dengan cara membangun simulasi rangkaian nyata secara digital.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="swot-grid">
+                                    <div class="swot-card strength">
+                                        <h4><i class="fas fa-plus-circle"></i> Kekuatan</h4>
+                                        <p>Gratis, berbasis browser, dan memungkinkan siswa bereksperimen tanpa takut merusak komponen. Feedback kesalahan rangkaian instan dan visual.</p>
+                                    </div>
+                                    <div class="swot-card weakness">
+                                        <h4><i class="fas fa-minus-circle"></i> Kelemahan</h4>
+                                        <p>Tidak semua sensor/modul IoT tersedia di library Tinkercad. Transisi dari simulasi ke hardware nyata tetap memerlukan adaptasi tambahan.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="reflection-block">
+                                    <h4><i class="fas fa-lightbulb"></i> Analisis Reflektif & Tindak Lanjut</h4>
+                                    <p>Tinkercad terbukti sangat efektif sebagai jembatan kognitif sebelum perakitan fisik. Ke depan, saya akan mengintegrasikan LKPD digital berbasis Tinkercad yang memuat tantangan bertahap (<em>tiered challenges</em>) sesuai level kemampuan siswa.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Evaluasi & Lampiran Section -->
+    <section id="evaluasi" class="section-padding bg-gray">
+        <div class="container">
+            <h2 class="section-title">Dokumen Evaluasi & Lampiran Resmi</h2>
+            
+            <div class="accordion" id="docAccordion">
+                <!-- Accordion Item 1: Evaluasi & Lampiran -->
+                <div class="accordion-item">
+                    <div class="accordion-header active">
+                        <span><i class="fas fa-file-contract"></i> Dokumen Evaluasi & Lampiran Resmi</span>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <div class="accordion-content" style="max-height: 1000px;">
+                        <div class="accordion-body">
+                            <p>Kompilasi dokumen evaluasi resmi dari Guru Pamong & DPL, serta Lampiran 7 (Laporan Non-Mengajar) dan Lampiran 8 (Rencana Tindak Lanjut).</p>
+                            <div class="doc-download">
+                                <div class="doc-info">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <div>
+                                        <strong>Lembar Evaluasi & Jurnal Refleksi (GP & DPL)</strong>
+                                        <div style="font-size: 0.8rem; color: var(--text-muted);">PDF Document - 3.7 MB</div>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-primary" style="padding: 0.5rem 1rem;"><i class="fas fa-download"></i> Unduh</a>
+                            </div>
+                            <div class="doc-download">
+                                <div class="doc-info">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <div>
+                                        <strong>Lampiran 7 & 8 Resmi PPG</strong>
+                                        <div style="font-size: 0.8rem; color: var(--text-muted);">PDF Document - 2.9 MB</div>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-primary" style="padding: 0.5rem 1rem;"><i class="fas fa-download"></i> Unduh</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Accordion Item 3 -->
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span><i class="fas fa-photo-video"></i> Dokumentasi Foto & Video Praktik Mengajar</span>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <p>Kompilasi dokumentasi foto dan rekaman video pelaksanaan pembelajaran sebagai bukti empiris kemampuan pedagogik di dalam kelas.</p>
+
+                            <!-- Photo Gallery -->
+                            <h4 style="margin: 1.5rem 0 0.75rem; font-size: 0.95rem; color: var(--primary-blue);"><i class="fas fa-images"></i> Galeri Foto Dokumentasi</h4>
+                            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem;">
+                                <!-- Photo 1 -->
+                                <div class="gallery-item" style="aspect-ratio: 4/3; background: #E2E8F0; border-radius: 8px; overflow: hidden; box-shadow: var(--shadow-sm); transition: var(--transition);">
+                                    <img src="Asset/Dokumen%20Akademik/Dokumentasi/penerjunan.jpeg" alt="Penerjunan PPL" style="width: 100%; height: 100%; object-fit: cover;">
+                                </div>
+                                <!-- Photo 2 -->
+                                <div class="gallery-item" style="aspect-ratio: 4/3; background: #E2E8F0; border-radius: 8px; overflow: hidden; box-shadow: var(--shadow-sm); transition: var(--transition);">
+                                    <img src="Asset/Dokumen%20Akademik/Dokumentasi/Mengajar%201.jpeg" alt="Praktik Mengajar di Kelas" style="width: 100%; height: 100%; object-fit: cover;">
+                                </div>
+                                <!-- Photo 3 -->
+                                <div class="gallery-item" style="aspect-ratio: 4/3; background: #E2E8F0; border-radius: 8px; overflow: hidden; box-shadow: var(--shadow-sm); transition: var(--transition);">
+                                    <img src="Asset/Dokumen%20Akademik/Dokumentasi/Presentasi%20Produk.jpeg" alt="Presentasi Produk IoT Siswa" style="width: 100%; height: 100%; object-fit: cover;">
+                                </div>
+                                <!-- Photo 4 -->
+                                <div class="gallery-item" style="aspect-ratio: 4/3; background: #E2E8F0; border-radius: 8px; overflow: hidden; box-shadow: var(--shadow-sm); transition: var(--transition);">
+                                    <img src="Asset/Dokumen%20Akademik/Dokumentasi/Presentasi%20Produk%202.jpeg" alt="Demo Produk IoT" style="width: 100%; height: 100%; object-fit: cover;">
+                                </div>
+                                <!-- Photo 5 -->
+                                <div class="gallery-item" style="aspect-ratio: 4/3; background: #E2E8F0; border-radius: 8px; overflow: hidden; box-shadow: var(--shadow-sm); transition: var(--transition);">
+                                    <img src="Asset/Dokumen%20Akademik/Dokumentasi/Bimbingan%20dengan%20Guru%20pamong.jpeg" alt="Bimbingan dengan Guru Pamong" style="width: 100%; height: 100%; object-fit: cover;">
+                                </div>
+                                <!-- Photo 6 -->
+                                <div class="gallery-item" style="aspect-ratio: 4/3; background: #E2E8F0; border-radius: 8px; overflow: hidden; box-shadow: var(--shadow-sm); transition: var(--transition);">
+                                    <img src="Asset/Dokumen%20Akademik/Dokumentasi/Bimbingan%20dengan%20dosen.jpg" alt="Bimbingan dengan DPL" style="width: 100%; height: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+
+                            <!-- Video Gallery -->
+                            <h4 style="margin: 1.5rem 0 0.75rem; font-size: 0.95rem; color: var(--primary-blue);"><i class="fas fa-film"></i> Video Dokumentasi Pembelajaran (Google Drive)</h4>
+                            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem;">
+                                <!-- Video 1 -->
+                                <div class="video-item">
+                                    <p style="font-size: 0.8rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--text-dark);"><i class="fas fa-video"></i> Demonstrasi Produk IoT 1</p>
+                                    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; background: #000; box-shadow: var(--shadow-md);">
+                                        <iframe src="https://drive.google.com/file/d/1_M54iPrGdDK1f0J959OIZQaWdePWwZVb/preview" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" allow="autoplay"></iframe>
+                                    </div>
+                                </div>
+                                <!-- Video 2 -->
+                                <div class="video-item">
+                                    <p style="font-size: 0.8rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--text-dark);"><i class="fas fa-video"></i> Demonstrasi Produk IoT 2</p>
+                                    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; background: #000; box-shadow: var(--shadow-md);">
+                                        <iframe src="https://drive.google.com/file/d/15HTVjUe-rubX4b__xYWDGLlr_36toocD/preview" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" allow="autoplay"></iframe>
+                                    </div>
+                                </div>
+                                <!-- Video 3 -->
+                                <div class="video-item">
+                                    <p style="font-size: 0.8rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--text-dark);"><i class="fas fa-microchip"></i> Pengenalan Arduino</p>
+                                    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; background: #000; box-shadow: var(--shadow-md);">
+                                        <iframe src="https://drive.google.com/file/d/1O58yAojbz634W6O91nkqWkhAZ8thh8bo/preview" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" allow="autoplay"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Model Guru Profesional -->
+    <section id="model-guru" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Model Guru Profesional Abad 21</h2>
+            <div class="profil-grid" style="grid-template-columns: 1fr 1fr; gap: 3rem; align-items: stretch;">
+                <div class="card" style="background: var(--primary-blue-dark); color: white; border-bottom: none;">
+                    <i class="fas fa-network-wired" style="font-size: 2.5rem; color: var(--soft-gold); margin-bottom: 1.5rem;"></i>
+                    <h3 style="color: white; margin-bottom: 1rem;">Paradigma TPACK</h3>
+                    <p style="color: rgba(255,255,255,0.8);">Menerapkan kerangka kerja Technological Pedagogical Content Knowledge (TPACK) dalam mendesain pengalaman belajar yang holistik. Teknologi bukan sekadar alat, melainkan lingkungan tempat siswa belajar memecahkan masalah kontekstual.</p>
+                </div>
+                <div class="card" style="background: var(--soft-gold); border-bottom: none;">
+                    <i class="fas fa-hands-helping" style="font-size: 2.5rem; color: var(--primary-blue-dark); margin-bottom: 1.5rem;"></i>
+                    <h3 style="color: var(--primary-blue-dark); margin-bottom: 1rem;">Pembelajaran Berdiferensiasi</h3>
+                    <p style="color: var(--primary-blue-dark);">Mengakui dan merayakan keunikan setiap peserta didik. Pendekatan saya mencakup diferensiasi konten, proses, dan produk agar tidak ada satupun anak yang tertinggal dalam proses pemaknaan pembelajaran.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & CTA Section -->
+    <section id="kontak" class="section-padding bg-gray contact-section">
+        <div class="container">
+            <div class="contact-card">
+                <h2>Mari Berkolaborasi untuk Pendidikan Indonesia</h2>
+                <p>Saya siap mendiskusikan peluang karir, inisiatif pendidikan, dan kolaborasi profesional di masa depan. Mari bersama wujudkan transformasi pendidikan.</p>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fas fa-globe"></i></a>
+                </div>
+                
+                <a href="mailto:contact@example.com" class="btn btn-gold btn-lg"><i class="fas fa-paper-plane"></i> Hubungi Saya Secara Profesional</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 E-Portofolio PPG Prajabatan. Disusun oleh Adi Robertus untuk memenuhi persyaratan LPTK.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
